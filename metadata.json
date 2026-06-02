@@ -1,6 +1,5 @@
 {
   "name": "BrainyBaiz",
   "description": "A modern, highly responsive frontend e-commerce web application powered by the DummyJSON API.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "requestFramePermissions": []
 }
