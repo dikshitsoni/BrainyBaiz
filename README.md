@@ -74,8 +74,8 @@ Ensure you have **Node.js** (v18.x or newer) and **npm** installed on your syste
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/brainybaiz-storefront.git
-cd brainybaiz-storefront
+git clone https://github.com/dikshitsoni/BrainyBaiz.git
+cd BrainyBaiz
 ```
 
 ### 2. Install Project Dependencies
