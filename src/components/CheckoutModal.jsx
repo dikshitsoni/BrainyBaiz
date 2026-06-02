@@ -209,7 +209,7 @@ export default function CheckoutModal() {
               <span className={`mt-1.5 text-[8px] font-black tracking-widest uppercase ${checkoutStep === "shipping" ? "text-black" : "text-[#999]"}`}>Shipping</span>
             </div>
             
-            <div className={`h-[1px] flex-1 transition-all ${checkoutStep === "shipping" ? "bg-[#e5e5e5]" : "bg-emerald-500"}`} />
+            <div className={`h-px flex-1 transition-all ${checkoutStep === "shipping" ? "bg-[#e5e5e5]" : "bg-emerald-500"}`} />
 
             <div className="flex flex-1 flex-col items-center">
               <div className={`flex h-7 w-7 items-center justify-center rounded-full text-[10px] font-bold transition-all ${
@@ -220,7 +220,7 @@ export default function CheckoutModal() {
               <span className={`mt-1.5 text-[8px] font-black tracking-widest uppercase ${checkoutStep === "payment" ? "text-black" : "text-[#999]"}`}>Payment</span>
             </div>
 
-            <div className={`h-[1px] flex-1 transition-all ${checkoutStep === "success" ? "bg-emerald-500" : "bg-[#e5e5e5]"}`} />
+            <div className={`h-px flex-1 transition-all ${checkoutStep === "success" ? "bg-emerald-500" : "bg-[#e5e5e5]"}`} />
 
             <div className="flex flex-1 flex-col items-center">
               <div className={`flex h-7 w-7 items-center justify-center rounded-full text-[10px] font-bold transition-all ${
